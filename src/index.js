@@ -1,12 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import './index.css';
+import "./index.css";
 // import App from "./App";
 import "bootstrap/dist/css/bootstrap.css";
-import 'font-awesome/css/font-awesome.css'
-import Counters from "./components/counters";
-
+import "font-awesome/css/font-awesome.css";
+import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Counters />);
+root.render(<App />);
 <React.StrictMode></React.StrictMode>;

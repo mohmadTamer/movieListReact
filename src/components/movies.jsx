@@ -60,3 +60,13 @@ export default class Movies extends Component {
   }
 }
 
+// example for render list
+
+// renderTage() {
+//     return this.props.counter.tags.length === 0 ? <h2>No items to show</h2>
+//         : this.props.counter.tags.map(tag => <li key={tag}> {tag} </li>)
+//     // {/* <ul>
+//     //     {this.renderTage()}
+//     // </ul> */}
+// }
+
